@@ -23,7 +23,7 @@ registerComponent(MjBasicComponent)
 ```
 
 5. Edit `./src/index.mjml` to include the custom component.
-6. Run `gulp` to create the compiled HTML.
+6. Run `gulp` to create the compiled HTML in `./dist`.
 
 # Notes
 
