@@ -22,13 +22,13 @@ function build (cb) {
     mjml(mjmlEngine),
 
     // Write HTML version
-    dest('dist'),
+    dest('./dist'),
 
     // Error handling
     err => {
       if (err) {
-        console.error('Error!')
-        process.exit(1)
+        console.error('Error!', err.message)
+        process.exitCode = 1
       } else {
         console.log('Success!')
       }
