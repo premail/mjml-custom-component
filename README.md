@@ -16,7 +16,7 @@ To that end: The example in this repo (Stage 2) uses the [modern `pipeline()` ve
 2. Run `npm install` in that folder.
 3. Create a new component, or use the existing examples.
 4. Run `npm run build`.
-5. Copy the component file exported to `./lib`.
+5. Note the compiled component file in `./lib`.
 
 # Stage 2: Use the compiled component
 
