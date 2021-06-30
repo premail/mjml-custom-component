@@ -10,9 +10,7 @@ const { registerComponent } = require('mjml-core')
 const MjBasicComponent = require('./components/MjBasicComponent.js').default
 registerComponent(MjBasicComponent)
 
-//
-// Build mjml
-//
+// Gulp task
 function build (cb) {
 
   return pipeline(
