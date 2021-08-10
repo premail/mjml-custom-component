@@ -32,5 +32,19 @@ const MjBasicComponent = require('./components/MjBasicComponent.js').default
 registerComponent(MjBasicComponent)
 ```
 
-5. Edit `./src/index.mjml` to include the custom component.
-6. Run `gulp` to create the compiled HTML in `./dist`.
+5. Require and register the validation (this seems to be necessary in addition
+to defining it in the component file itself):
+
+```js
+const { registerDependencies } = require('mjml-validator')
+registerDependencies({
+  // Tell the validator which tags are allowed as our component's parent
+  'mj-hero': ['mj-basic-component'],
+  'mj-column': ['mj-basic-component'],
+  // Tell the validator which tags are allowed as our component's children
+  'mj-basic-component': []
+})
+```
+
+6. Edit `./src/index.mjml` to include the custom component.
+7. Run `gulp` to create the compiled HTML in `./dist`.

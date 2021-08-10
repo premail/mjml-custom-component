@@ -9,6 +9,14 @@ const mjmlEngine = require('mjml')
 const { registerComponent } = require('mjml-core')
 const MjBasicComponent = require('./components/MjBasicComponent.js').default
 registerComponent(MjBasicComponent)
+const { registerDependencies } = require('mjml-validator')
+registerDependencies({
+  // Tell the validator which tags are allowed as our component's parent
+  'mj-hero': ['mj-basic-component'],
+  'mj-column': ['mj-basic-component'],
+  // Tell the validator which tags are allowed as our component's children
+  'mj-basic-component': []
+})
 
 // Gulp task
 function build (cb) {
