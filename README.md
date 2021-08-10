@@ -15,7 +15,7 @@ To that end: The example in this repo (Stage 2) uses the [modern `pipeline()` ve
 1. In a separate folder, clone https://github.com/mjmlio/mjml-component-boilerplate
 2. Run `npm install` in that folder.
 3. Create a new component, or use the existing examples.
-4. Run `npm run build`.
+4. Run `gulp build`.
 5. Note the compiled component file in `./lib`.
 
 # Stage 2: Use the compiled component
