@@ -1,4 +1,4 @@
-Compiling an [MJML](https://github.com/mjmlio/mjml) custom component.
+Compiling an [MJML](https://github.com/mjmlio/mjml) custom component. This repo builds on [MJML's custom component boilerplate](https://github.com/mjmlio/mjml-component-boilerplate) by demonstrating how to *use* the component once you've compiled it.
 
 # Requirements
 
@@ -48,3 +48,4 @@ registerDependencies({
 
 6. Edit `./src/index.mjml` to include the custom component.
 7. Run `gulp` to create the compiled HTML in `./dist`.
+8. Using this as an example, create and use your own custom MJML components!
