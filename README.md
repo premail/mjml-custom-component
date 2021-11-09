@@ -1,5 +1,11 @@
 Compiling an [MJML](https://github.com/mjmlio/mjml) custom component. This repo builds on [MJML's custom component boilerplate](https://github.com/mjmlio/mjml-component-boilerplate) by demonstrating how to *use* the component once you've compiled it.
 
+---
+
+**Brought to you by [Premail](https://github.com/premail).**
+
+---
+
 # Requirements
 
 * [Node](https://nodejs.org/en/download/) 12.x+, NPM 6.14.12+
