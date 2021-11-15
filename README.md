@@ -55,3 +55,9 @@ registerDependencies({
 6. Edit `./src/index.mjml` to include the custom component.
 7. Run `gulp` to create the compiled HTML in `./dist`.
 8. Using this as an example, create and use your own custom MJML components!
+
+# License
+
+GNU Affero General Public License v3.0 or later. For the legal details of the
+AGPL, see the complete
+[LICENSE](https://github.com/premail/mjml-custom-component/blob/main/LICENSE).
