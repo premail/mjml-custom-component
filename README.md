@@ -55,6 +55,7 @@ registerDependencies({
 6. Edit `./src/index.mjml` to include the custom component.
 7. Run `gulp` to create the compiled HTML in `./dist`.
 8. Using this as an example, create and use your own custom MJML components!
+9. If you want to contribute your custom component back, add an `.mjmlconfig` file to your project ([here's an example](https://github.com/premail/mjml-bullet-list/blob/main/.mjmlconfig)) and publish it to npm! Then suggest the MJML folks add it to [their list of community components](https://documentation.mjml.io/#community-components).
 
 # License
 
