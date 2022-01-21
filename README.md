@@ -8,7 +8,7 @@ Compiling an [MJML](https://github.com/mjmlio/mjml) custom component. This repo 
 
 # Requirements
 
-* [Node](https://nodejs.org/en/download/) 12.x+, NPM 6.14.12+
+* [Node](https://nodejs.org/en/download/) 12.x+, npm 6.14.12+
 * [Gulp](https://gulpjs.com/docs/en/getting-started/quick-start) 4.0.2+
 * Tested with [MJML](https://github.com/mjmlio/mjml/releases) 4.10.1
 
