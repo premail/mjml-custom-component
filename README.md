@@ -2,7 +2,8 @@ Compiling an [MJML](https://github.com/mjmlio/mjml) custom component. This repo 
 
 ---
 
-**Brought to you by [Premail](https://github.com/premail).**
+<a href="https://github.com/premail"><img src="https://raw.githubusercontent.com/premail/mjml-bullet-list/main/docs/images/icon.svg" alt="Premail" width="50" height="50" align="left" /></a><strong>Brought to you by
+<a href="https://github.com/premail">Premail</a>.</strong>
 
 ---
 
