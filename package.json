@@ -11,7 +11,7 @@
     "url": "git+https://example.com"
   },
   "homepage": "https://example.com",
-  "author": "Ivan Boothe <ivan@rootwork.org> (https://rootwork.org/)",
+  "author": "Ivan Boothe <git@rootwork.org> (https://rootwork.org/)",
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-mjml": "^4.0.2",
