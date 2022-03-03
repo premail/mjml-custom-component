@@ -10,7 +10,7 @@ Compiling an [MJML](https://github.com/mjmlio/mjml) custom component. This repo 
 
 * [Node](https://nodejs.org/en/download/) 12.x+, npm 6.14.12+
 * [Gulp](https://gulpjs.com/docs/en/getting-started/quick-start) 4.0.2+
-* Tested with [MJML](https://github.com/mjmlio/mjml/releases) 4.10.1
+* Tested with [MJML](https://github.com/mjmlio/mjml/releases) 4.12.0
 
 The boilerplate repo uses a specific workflow with Babel, and older versions of MJML, but your own build's workflow doesn't need to match.
 
